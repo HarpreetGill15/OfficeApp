@@ -1,0 +1,38 @@
+﻿#nav{
+    display:inline-block;
+}
+.nav-links {
+    display: inline-block;
+    list-style: none;
+    margin:0.2em;
+    padding:5px;
+}
+#dashboard{
+    width: 75%;
+    float:right;
+}
+#side-nav{
+    width:25%;
+    float:left;
+}
+#side-nav ul{
+    padding:5px;
+    margin:0;
+}
+.side-nav-links{
+    list-style:none;
+
+}
+
+/*.side-nav-sub-links {
+    display: none;
+}*/
+.side-nav-sub-links li{
+    list-style:none;
+}
+.show-client-sub-links {
+    display: block;
+}
+.show-appointment-sub-links {
+    display: block;
+}
